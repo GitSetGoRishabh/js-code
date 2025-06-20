@@ -36,11 +36,13 @@ Feel free to:
 
 ```bash
 git clone https://github.com/your-username/javascript-daily-practice.git
+```
 
-🙌 Connect With Me
-💼 GitHub: Rishabh Yadav
+## 🙌 Connect With Me
 
-📫 Email: your-email@example.com (optional)
+💼 GitHub: Rishabh Singh Yadav
+
+📫 Email: rishabhgoterror@gmail.com
 
 💬 Feel free to open issues or start a discussion!
 
@@ -50,7 +52,4 @@ If you like this project, consider giving it a ⭐ star to stay updated and show
 🧠 "Code every day, grow every day!"
 
 
----
-
-Let me know if you'd like me to personalize it with your actual GitHub username or email.
 
