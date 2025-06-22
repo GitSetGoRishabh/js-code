@@ -7,7 +7,9 @@ let number= 18        //number
 let isboy = true      //boolean
 let age
 let failedsubs=null
+
 /*
+
 Data Types :
 
 number --> 2 to the power 53
@@ -25,3 +27,4 @@ console.log(typeof myname)
 console.log(typeof number)
 console.log(typeof age)
 console.log(typeof failedsubs)
+
