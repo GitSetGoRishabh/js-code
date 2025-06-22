@@ -35,7 +35,7 @@ Feel free to:
 - Give feedback or suggestions!
 
 ```bash
-git clone https://github.com/your-username/javascript-daily-practice.git
+git clone https://github.com/GitSetGoRishabh/js-code.git
 ```
 
 ## 🙌 Connect With Me
