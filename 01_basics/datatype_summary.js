@@ -36,3 +36,8 @@ const myfunction=function(){
 myfunction()
 console.log(heroes)
 console.log(obj)
+
+
+//----------------------------------------------------------------------------------------------------------------------------------------
+
+// Stack(Primitive)     |     heap(non primitive)
