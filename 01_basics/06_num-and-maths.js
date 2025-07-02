@@ -22,12 +22,12 @@
 
 // ----------------------------------maths-------------------------------------------------
 
-  console.log(Math)
-  console.log(Math.abs(-4))  // changes negative to positive(absolute value)
-  console.log(Math.abs(4))
-  console.log(Math.round(4.3))
-  console.log(Math.ceil(4.7))  // takes next closes value
-  console.log(Math.floor(4.7)) // takes previous closest value 
+console.log(Math)
+console.log(Math.abs(-4))  // changes negative to positive(absolute value)
+console.log(Math.abs(4))
+console.log(Math.round(4.3))
+console.log(Math.ceil(4.7))  // takes next closes value
+console.log(Math.floor(4.7)) // takes previous closest value 
 console.log(Math.min(3,4,5,6,7))
 console.log(Math.max(3,4,5,6,7))
 console.log(Math.random())     // returns random number b/w 0-1
