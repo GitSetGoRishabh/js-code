@@ -18,20 +18,47 @@ if (true){
 // the var c outside is called global scope
 // var has an issue , it makes it always global so values get altered
 
-function one(){
-    const username="rishabh"
+// function one(){
+//     const username="rishabh"
 
-    function two(){
-        const website="youtube"
-        console.log(username);
-    }
-    // console.log(website);
+//     function two(){
+//         const website="youtube"
+//         console.log(username);
+//     }
+//     // console.log(website);
 
 
-    two()
-}
+//     two()
+// }
 
-one()
+// one()
 
 // in nested function usually chld function can access parent's block / local scope
 
+// if (true) {
+//     const username="Rishabh"
+//     if(username === "Rishabh") {
+//         const website = "youtube"
+//         console.log(username+website)
+//     }
+    // console.log(website)
+// }
+// console.log(username)
+
+addone(5)
+
+ function addone(num) {
+    return num+1
+ }
+
+ 
+addTwo(5)
+
+ const addTwo = function(num) {
+    return num+2
+ }
+
+ 
+
+ //both are the ways for function but 1st can operate if declaration is later than calling
+ // but 2nd will throw error if accessed first then declaration 
