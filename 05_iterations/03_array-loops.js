@@ -75,7 +75,7 @@ coding.forEach( (item) => {
 })
 
 function printMe(item){
-    console.log(item)
+    // console.log(item)
 }
 
 // coding.forEach(printMe)
@@ -84,21 +84,36 @@ coding.forEach( (item,index,arr) => {
     // console.log(item,index,arr);
 })
 
-const myCoding = [
-    {
-        languageName:'javascript',
-        fileName:'js'
-    },
-    {
-        languageName:'C++',
-        fileName:'cpp'
-    },
-    {
-        languageName:'python',
-        fileName:'py'
-    }
-]
+// const myCoding = [
+//     {
+//         languageName:'javascript',
+//         fileName:'js'
+//     },
+//     {
+//         languageName:'C++',
+//         fileName:'cpp'
+//     },
+//     {
+//         languageName:'python',
+//         fileName:'py'
+//     }
+// ]
 
-myCoding.forEach( (item) => {
-    console.log(item.languageName)
+// myCoding.forEach( (item) => {
+//     console.log(item.languageName)
+// })
+
+const values = coding.forEach( (item) => {
+    console.log(item);
+    return item
+    
 })
+
+console.log(values) // gives undefined because for-each doesn't return anything
+
+// for that purpose we have filter 
+
+const myNums = [1,2,3,4,5,6,7,8,9,10]
+
+const newNums = myNums.filter( (num) => num>4)
+console.log(newNums)
