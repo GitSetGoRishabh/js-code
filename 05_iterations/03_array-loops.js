@@ -34,4 +34,71 @@
 //     console.log(key,':',value);
 // }
 
-// doesn't work
+// doesn't work on object to get both 
+// (for in)
+const myObject = {
+    js:"Javascript",
+    cpp:"C++",
+    rb:"ruby"
+}
+
+for (const key in myObject) {
+    // console.log(myObject[key]);
+    // console.log(`${key} is shortcut for ${myObject[key]}`);
+    
+}
+//you have to write like this in object , it won't work like arrays
+
+
+// for arrays
+
+const programming = ['js','rb',"cpp",'py']
+
+for (const key in programming) {
+    // console.log(programming[key]);
+    // console.log(key);
+    
+}
+
+// for each loop
+
+const coding=['js','rb','py','cpp']
+
+coding.forEach(function (item) {
+    // console.log(item);
+    
+})
+
+coding.forEach( (item) => {
+    // console.log(item);
+    
+})
+
+function printMe(item){
+    console.log(item)
+}
+
+// coding.forEach(printMe)
+
+coding.forEach( (item,index,arr) => {
+    // console.log(item,index,arr);
+})
+
+const myCoding = [
+    {
+        languageName:'javascript',
+        fileName:'js'
+    },
+    {
+        languageName:'C++',
+        fileName:'cpp'
+    },
+    {
+        languageName:'python',
+        fileName:'py'
+    }
+]
+
+myCoding.forEach( (item) => {
+    console.log(item.languageName)
+})
