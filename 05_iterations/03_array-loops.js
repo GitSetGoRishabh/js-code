@@ -103,17 +103,13 @@ coding.forEach( (item,index,arr) => {
 //     console.log(item.languageName)
 // })
 
-const values = coding.forEach( (item) => {
-    console.log(item);
-    return item
-    
+
+const newNums = []
+
+myNums.forEach( (num) => {
+    if (num > 4) {
+        newNums.push(num)
+    }
 })
 
-console.log(values) // gives undefined because for-each doesn't return anything
-
-// for that purpose we have filter 
-
-const myNums = [1,2,3,4,5,6,7,8,9,10]
-
-const newNums = myNums.filter( (num) => num>4)
 console.log(newNums)
