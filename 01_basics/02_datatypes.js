@@ -16,8 +16,8 @@ number --> 2 to the power 53
 bigint --> larger than number 
 string --> ""
 boolean--> true/false
-null   --> standalone value
-undefined-->
+null   --> standalone value kept as null 
+undefined--> when nothing is saved as value
 symbol --> for unique
 object
 
@@ -27,4 +27,5 @@ console.log(typeof myname)
 console.log(typeof number)
 console.log(typeof age)
 console.log(typeof failedsubs)
+console.log(typeof isboy)
 
