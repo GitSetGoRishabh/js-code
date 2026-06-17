@@ -70,6 +70,6 @@ Conversion to string
 //  num1=num2=num3=4 // can be done but readability low
 
 // let gamecounter = 100
-// 1gamecounter++  // adds 1 and  prints before adding 1 --> postfix
+// gamecounter++  // adds 1 and  prints before adding 1 --> postfix
 //  ++gamecounter;  // adds and  prints after adding 1 --> perfix
 //  console.log(gamecounter)
