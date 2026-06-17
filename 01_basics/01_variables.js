@@ -1,4 +1,4 @@
- const accountid=12345                    // defines a constant 
+const accountid=12345                    // defines a constant 
 let accountemail="rishabh@gmail.com"
 var accountpass="123456789"
 accountcity="Kota"
