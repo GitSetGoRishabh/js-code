@@ -29,7 +29,6 @@ let newDate=new Date()
 // console.log(newDate.getDay())
 // console.log(newDate.getMonth()+1)           // as it starts from 0
 
-
 console.log(newDate.toLocaleDateString('default',{
     weekday:"long"
 }))
