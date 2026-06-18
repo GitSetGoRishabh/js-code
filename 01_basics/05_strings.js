@@ -26,7 +26,7 @@ console.log(name2)
 name1="  Rishabh   "
 console.log(name1.trim())
 
-url="https://rishabh.com/rishabh%20yadav"
+const url="https://rishabh.com/rishabh%20yadav"
 console.log(url.replace("%20","-"))
 
 console.log(url.includes("singh"))
