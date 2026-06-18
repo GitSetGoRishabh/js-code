@@ -6,11 +6,11 @@
 
 
 // console.log(balance.toString().length)
-// console.log(balance.toFixed(3))
+// console.log(balance.toFixed(3))  -> gives 3 precision  after decimal
 
 // const otherNumber = 117.643
 // console.log(otherNumber)
-// console.log(otherNumber.toPrecision(3))
+// console.log(otherNumber.toPrecision(3))  -> total digits will be 3
 // console.log(otherNumber.toPrecision(4))
 // console.log(otherNumber.toPrecision(2))
 
@@ -26,7 +26,7 @@ console.log(Math)
 console.log(Math.abs(-4))  // changes negative to positive(absolute value)
 console.log(Math.abs(4))
 console.log(Math.round(4.3))
-console.log(Math.ceil(4.7))  // takes next closes value
+console.log(Math.ceil(4.7))  // takes next closest value
 console.log(Math.floor(4.7)) // takes previous closest value 
 console.log(Math.min(3,4,5,6,7))
 console.log(Math.max(3,4,5,6,7))
