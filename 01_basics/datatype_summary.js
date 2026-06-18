@@ -40,4 +40,6 @@ console.log(obj)
 
 //----------------------------------------------------------------------------------------------------------------------------------------
 
-// Stack(Primitive)     |     heap(non primitive)
+// Stack                |     heap
+//gives copy of object  |   gives reference of object
+//primitive uses it     |  non primitive uses it
