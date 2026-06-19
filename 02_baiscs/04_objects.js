@@ -30,12 +30,10 @@ const obj2 = {3:"c",2:"d"}
 // console.log(obj3)
 
 const obj3= {...obj1,...obj2}
-// console.log(obj3);
+console.log(obj3);
 
 console.log(booUser)
-
 console.log(Object.keys(booUser))
 console.log(Object.values(booUser))
 console.log(Object.entries(booUser))
-
 console.log(booUser.hasOwnProperty('isLoggedIn'))
