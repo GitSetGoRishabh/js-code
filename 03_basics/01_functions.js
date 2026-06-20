@@ -4,7 +4,7 @@
 
 
 // addTwoNumbers(3,4)
-// addTwoNumbers()  ---> returns Nan as nothing is given
+// addTwoNumbers() // ---> returns Nan as nothing is given
 // addTwoNumbers("a",3)
 // addTwoNumbers(3,"b")
 // addTwoNumbers(3,null)
