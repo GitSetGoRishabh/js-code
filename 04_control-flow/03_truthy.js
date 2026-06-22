@@ -52,7 +52,6 @@ val4=null ?? 10 ?? 5
 // console.log(val3);
 // console.log(val4);
 
-
 //Ternary operator
 
 // condition ? true : false
