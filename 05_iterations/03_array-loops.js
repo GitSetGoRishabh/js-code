@@ -6,6 +6,7 @@
 //     console.log(num);
 // }
 
+
 // const greetings = "hello world"
 
 // for (const greet of greetings) {
@@ -22,8 +23,6 @@
 // for (const [key,value] of map) {
 //     console.log(key,':',value);
 // }
-
-
 
 // const myObject = {
 //     game1: 'NFS',
