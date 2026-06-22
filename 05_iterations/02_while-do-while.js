@@ -20,7 +20,7 @@
 // do while
 
 // do {
-    
+
 // } while (condition);
 
 let score = 1
