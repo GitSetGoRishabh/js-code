@@ -8,6 +8,7 @@ const values = coding.forEach( (item) => {
     
 })
 
+
 // console.log(values) // gives undefined because for-each doesn't return anything
 
 // for that purpose we have filter 
